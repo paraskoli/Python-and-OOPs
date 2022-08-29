@@ -1,4 +1,4 @@
-# ghkdshg
-# dgfjlds
-for i in range(1,20):
-    print('helllo')
+with open("log.txt") as f:
+    t=f.read()
+if "python" in t.lower() :
+    print("yes python is present ")
