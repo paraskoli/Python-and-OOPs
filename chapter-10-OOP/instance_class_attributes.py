@@ -1,6 +1,7 @@
 class Employee:
     company="Google"
     salary=100
+    
 
 harry=Employee()
 rajini=Employee()
@@ -9,3 +10,5 @@ rajini=Employee()
 #rajini.salary=400
 print(harry.salary)
 print(rajini.salary)
+#below line throws an error as address is not present in the instance/class
+#print(rajini.address)
