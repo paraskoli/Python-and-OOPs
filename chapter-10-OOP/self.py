@@ -1,7 +1,8 @@
 class Employee:
     company="Google"
     def getSalry(self):
-        print("salary is 100k")
+        print(f"salary for this employee working in{self.company}is{self.salary}")
 
 harry=Employee()
-harry.getSalry()
+harry.salary=100000
+harry.getSalry()#Employee.getsalary(harry)
