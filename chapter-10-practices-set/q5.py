@@ -5,10 +5,13 @@ class Train:
         self.seats=seats
 
     def getStatus(self):
+        print("*********")
         print(f"The name of the Train is {self.name}")
         print(f"The sets availabe in the train are {self.seats}")
-
+        print("*********")
+        
     def fareInfo(self):
+        
         print(f"The price of the ticket is : Rs {self.fare}")
     
     def bookTickets(self):
