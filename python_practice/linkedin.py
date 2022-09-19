@@ -114,3 +114,28 @@
 
 # def main():
 #     print(os.name)
+
+
+
+# from datetime import date
+# from datetime import time
+# from datetime import datetime
+# def main():
+#     today=date.today()
+#     print("today date is ",today)
+
+
+
+import calendar
+
+c=calendar.TextCalendar(calendar.MONDAY)
+str =c .formatmonth(2022,9)
+print(str) 
+
+for name in calendar.month_name:
+    print(name)
+
+for day in calendar.day_name:
+    print(day)
+
+
