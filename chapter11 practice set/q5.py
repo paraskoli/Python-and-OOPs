@@ -1,6 +1,3 @@
-from itertools import product
-
-
 class vector:
     def __init__(self,vec):
         self.vec=vec

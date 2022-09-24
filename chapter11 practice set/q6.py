@@ -1,9 +1,9 @@
 class Vector:
-    def __init__(self,vec):
+    def __init__(self, vec):
         self.vec=vec
 
     def __str__(self):
-        return f"{self.vec[0]}i + {self.vec[4]}j + {self.vec[5]}k"
+        return f"{self.vec[0]}i + {self.vec[1]}j + {self.vec[2]}k"
 
 v1=Vector([2, 4, 5])
 v2=Vector([4, 6, 9])
